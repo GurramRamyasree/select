@@ -1,0 +1,73 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #aec8f5; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container Styling */
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+/* Search Bar Styling */
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #c8d3f7; 
+    border-radius: 50px;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+/* Dropdown Menu Styling */
+.dropdown {
+    background-color:#b74b81; 
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.dropdown option {
+    color:White;
+}
+
+/* Input Field Styling */
+input[type="text"] {
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    width: 400px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.search-button {
+    background-color:white; 
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color:#b74b81; /* Darker purple on hover */
+}
